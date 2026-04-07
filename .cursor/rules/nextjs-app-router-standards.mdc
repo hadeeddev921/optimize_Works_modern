@@ -1,0 +1,14 @@
+---
+description: Next.js App Router conventions for pages, layouts, and shared components.
+globs: "{app,components}/**/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# Next.js App Router Standards
+
+- Keep route files in `app/` and colocate route-specific UI with the route when possible.
+- Prefer server components by default; only use client components when interactivity is required.
+- Keep shared UI in `components/` with clear, reusable props.
+- Avoid large monolithic page files; extract repeated sections into components.
+- Maintain consistent naming, semantic HTML, and accessible defaults.
+- After substantive edits, run project lint/type checks before finalizing.
