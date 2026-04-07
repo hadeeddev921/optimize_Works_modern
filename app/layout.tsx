@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   title: "Optimize Works — Reducing Cost-to-Serve in Service-Led Organisations",
   description:
     "Optimize Works helps operations leaders in insurance and field service reduce cost-to-serve through practical, low-disruption AI and workflow optimisation.",
+  icons: {
+    icon: "/Clean-Logo-removebg-preview.png",
+    shortcut: "/Clean-Logo-removebg-preview.png",
+    apple: "/Clean-Logo-removebg-preview.png",
+  },
 };
 
 export default function RootLayout({
