@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 const MOBILE_QUERY = "(max-width: 1023px)";
 const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
-const STEP_MS = 2800;
+const STEP_MS = 2200;
 
 export function SolutionsAutoScroll({ sectionId }: { sectionId: string }) {
   useEffect(() => {
