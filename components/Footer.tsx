@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./Logo";
+import { PrivacyPolicyModalLink } from "./PrivacyPolicyModalLink";
 import { Site } from "./site";
 
 export function Footer() {
@@ -17,7 +18,7 @@ export function Footer() {
 
         <ul className="footer-nav" role="list">
           <li>
-            <Link href="/privacy">Privacy Policy</Link>
+            <PrivacyPolicyModalLink />
           </li>
           <li>
             <a href={`mailto:${Site.email}`}>Contact</a>
