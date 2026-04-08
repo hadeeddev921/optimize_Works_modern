@@ -11,7 +11,7 @@ type DotStep = {
   boxShadow: string;
 };
 
-const STEP_MS = 4200;
+const STEP_MS = 2800;
 
 const desktopSteps: DotStep[] = [
   {
