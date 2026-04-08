@@ -6,6 +6,6 @@ export const Site = {
   calendlyUrl:
     "https://calendly.com/lloyd-worth-optimizeworks/optimize-works-ai-readiness-review",
   googleFormUrl: "https://forms.gle/3ihCXrHgUrzbQWeF9",
-  linkedInUrl: "https://www.linkedin.com",
+  linkedInUrl: "https://www.linkedin.com/company/optimize-works/",
 } as const;
 
