@@ -328,11 +328,11 @@ export default function Home() {
                 <span className="res-quote-icon res-quote-icon-end" aria-hidden="true">❞</span>
               </p>
               <p className="res-author">
-                <span className="res-author-name">Charlie Windebank</span>
+                <span className="res-author-name">Charlie</span>
                 <span className="res-author-sep" aria-hidden="true">
                   |
                 </span>
-                <span className="res-author-role">UK Operations Leader</span>
+                <span className="res-author-role">Finance, People &amp; Corporate Services Director</span>
               </p>
             </article>
           </div>
