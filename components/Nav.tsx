@@ -9,7 +9,6 @@ const navLinks = [
   { href: "#why", label: "Why Us" },
   { href: "#solutions", label: "Solutions" },
   { href: "#who", label: "Who We Help" },
-  { href: "#guarantee", label: "Guarantee" },
 ] as const;
 
 export function Nav() {

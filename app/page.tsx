@@ -24,20 +24,19 @@ export default function Home() {
         <div className="hero-layout">
           <div className="hero-inner">
             <div className="hero-tag" aria-hidden="true">
-              Operational AI &middot; Service-Led Organisations
+              Operational AI &middot; Built for Service Businesses
             </div>
             <h1 id="hero-heading">
-              Reduce Your
+              AI That Works Around Your
               <br />
-              <em>Cost-to-Serve</em>
+              <em>Operation.</em>
               <br />
-              Without the Risk
+              Not Against It.
             </h1>
             <p className="hero-sub">
-              We work with operations leaders in insurance and field service to
-              identify where work actually breaks down — then apply
-              low-disruption AI where it safely reduces manual effort,
-              operational risk, and cost-to-serve.
+              We find where your team is losing time to manual work, broken
+              handoffs, and knowledge gaps — then apply AI that delivers
+              measurable results without disrupting the operation you depend on.
             </p>
             <div className="hero-actions">
               <a
@@ -46,7 +45,7 @@ export default function Home() {
                 rel="noopener"
                 className="btn btn-hero-cta"
               >
-                Book an AI Maturity Assessment
+                Book a Free AI Readiness Call
                 <svg
                   width="15"
                   height="15"
@@ -60,7 +59,7 @@ export default function Home() {
                 </svg>
               </a>
               <a href="#solutions" className="btn btn-ghost-dark">
-                Our Solutions
+                Keep Our Solutions
               </a>
             </div>
           </div>
@@ -76,16 +75,11 @@ export default function Home() {
 
           <div className="why-header sr">
             <h2 id="why-heading">
-              Built from inside
-              <br />
-              operations — not
-              <br />
-              consulting theory
+              We&apos;ve run the teams others try to advise.
             </h2>
             <p>
-              We&apos;ve run the teams others try to advise. That experience
-              shapes every engagement — cautious, practical, and always in
-              service of operational stability over speed.
+              That means every engagement is shaped by how operations actually
+              work — not how a slide deck says they should.
             </p>
           </div>
 
@@ -107,11 +101,10 @@ export default function Home() {
                   <path d="M11 8v6M8 11h6" />
                 </svg>
               </div>
-              <h3>Workflow First, Technology Second</h3>
+              <h3>Understand the work before changing it</h3>
               <p>
-                We start with how work actually moves — ownership, handoffs,
-                bottlenecks. AI comes only after we understand the real
-                operational structure.
+                We map how work actually flows before recommending anything. AI
+                comes after we understand the real problem.
               </p>
             </div>
 
@@ -128,11 +121,10 @@ export default function Home() {
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                 </svg>
               </div>
-              <h3>Low-Disruption by Design</h3>
+              <h3>No big rollouts. No disruption.</h3>
               <p>
-                Every improvement is scoped to validate impact before any broader
-                rollout. Operational stability is non-negotiable — not a target
-                we work towards, but a constraint we work within.
+                Every improvement is contained and validated before it goes
+                wider. The operation keeps running while we deliver.
               </p>
             </div>
 
@@ -150,38 +142,17 @@ export default function Home() {
                   <polyline points="16 7 22 7 22 13" />
                 </svg>
               </div>
-              <h3>Results You Can Stand Behind</h3>
+              <h3>Outcomes you can measure</h3>
               <p>
-                Clear metrics tied to your SLAs, backlog, and cost-to-serve. No
-                experiments to manage — just measurable outcomes delivered at
-                the pace your operation can absorb.
+                We agree upfront what success looks like — and we track it. No
+                ambiguous experiments.
               </p>
             </div>
           </div>
 
-          <div className="why-stats-row sr">
-            <div className="why-stat">
-              <div className="why-stat-num" style={{ "--s-color": "#3a9fe8" } as CSSVars}>
-                ↓ 34%
-              </div>
-              <div className="why-stat-desc">Average cost-to-serve reduction</div>
-            </div>
-            <div className="why-stat">
-              <div className="why-stat-num" style={{ "--s-color": "#28c880" } as CSSVars}>
-                98.4%
-              </div>
-              <div className="why-stat-desc">
-                SLA compliance maintained throughout
-              </div>
-            </div>
-            <div className="why-stat">
-              <div className="why-stat-num" style={{ "--s-color": "#a78bfa" } as CSSVars}>
-                90-day
-              </div>
-              <div className="why-stat-desc">
-                ROI guarantee — or we work for free
-              </div>
-            </div>
+          <div className="why-statement sr">
+            We start small, prove value fast, and only go further when the
+            results justify it.
           </div>
         </div>
       </section>
@@ -190,84 +161,77 @@ export default function Home() {
         <SolutionsAutoScroll sectionId="solutions" />
         <div className="container">
           <div className="sr">
-            <p className="label label-blue">Our Solutions</p>
             <h2 id="sol-heading">
-              Practical improvements for
-              <br />
-              service-heavy operations
+              How we work
             </h2>
             <p className="sol-intro-copy">
-              Low-disruption solutions designed around how your teams actually
-              work — not how a textbook says they should.
+              A simple, staged approach — designed to prove value before we go
+              any further.
             </p>
           </div>
           <div className="sol-grid sol-grid-timeline">
             <div className="sol-card sol-card-1 sr d1" data-step="1">
               <div className="sol-step-node" aria-hidden="true" />
               <div className="sol-card-left-bar" aria-hidden="true" />
-              <div className="sol-card-meta">Diagnostic Foundation</div>
+              <div className="sol-card-meta">Step 1</div>
               <div className="sol-num">01</div>
               <div className="sol-icon" aria-hidden="true">
                 <SolIconReview />
               </div>
               <h3>Operational Review</h3>
               <p>
-                A structured review of how work actually flows through your
-                operation, identifying bottlenecks, manual effort, and SLA risk
-                that drive cost-to-serve.
+                We map where your operation is losing time, money, and quality.
+                Before we recommend anything.
               </p>
-              <div className="sol-proof">Identifies high-impact opportunities before any rollout.</div>
+              <div className="sol-proof">No assumptions. No guesswork.</div>
             </div>
             <div className="sol-card sol-card-2 sr d2" data-step="2">
               <div className="sol-step-node" aria-hidden="true" />
               <div className="sol-card-left-bar" aria-hidden="true" />
-              <div className="sol-card-meta">Execution Layer</div>
+              <div className="sol-card-meta">Step 2</div>
               <div className="sol-num">02</div>
               <div className="sol-icon" aria-hidden="true">
                 <SolIconAutomation />
               </div>
               <h3>Workflow Automation</h3>
               <p>
-                Targeted automation on priority workflows to cut manual effort
-                and reduce operational risk.
+                We automate the highest-friction tasks first — the ones your
+                team feels every day.
               </p>
-              <div className="sol-proof">Applied where teams feel the most friction.</div>
             </div>
             <div className="sol-card sol-card-3 sr d3" data-step="3">
               <div className="sol-step-node" aria-hidden="true" />
               <div className="sol-card-left-bar" aria-hidden="true" />
-              <div className="sol-card-meta">Governance Layer</div>
+              <div className="sol-card-meta">Step 3</div>
               <div className="sol-num">03</div>
               <div className="sol-icon" aria-hidden="true">
                 <SolIconOwnership />
               </div>
-              <h3>Workflow &amp; Ownership Optimisation</h3>
+              <h3>Workflow &amp; Ownership</h3>
               <p>
-                Clarify ownership, handoffs, and decision points across service
-                workflows to reduce friction, rework, and hidden cost-to-serve.
+                We close the gaps between teams — unclear ownership, broken
+                handoffs, repeated rework.
               </p>
-              <div className="sol-proof">Strengthens accountability without adding process overhead.</div>
             </div>
             <div className="sol-card sol-card-4 sr d4" data-step="4">
               <div className="sol-step-node" aria-hidden="true" />
               <div className="sol-card-left-bar" aria-hidden="true" />
-              <div className="sol-card-meta">Delivery Assurance</div>
+              <div className="sol-card-meta">Step 4</div>
               <div className="sol-num">04</div>
               <div className="sol-icon" aria-hidden="true">
                 <SolIconImplementation />
               </div>
-              <h3>Low-Disruption Implementation</h3>
+              <h3>Delivery &amp; Stabilisation</h3>
               <p>
-                Deliver measurable improvements quickly, focusing on adoption
-                and stability rather than large-scale transformation or
-                experimentation.
+                We embed the changes properly so they stick — with your team,
+                in your systems, at a pace the operation can absorb.
               </p>
-              <div className="sol-proof">Built for SLA-sensitive teams that cannot afford disruption.</div>
             </div>
             <SolutionsTimelineMotion />
           </div>
           <div className="sol-trust sr">
-            Structured around measurable outcomes, operational continuity, and 90-day value visibility.
+            Every engagement starts with Step 1. We only go further when the
+            results justify it.
           </div>
         </div>
       </section>
@@ -277,9 +241,7 @@ export default function Home() {
           <div className="who-header sr" style={{ marginBottom: 52 }}>
             <p className="label label-light">Who We Help</p>
             <h2 id="who-heading" style={{ color: "var(--white)" }}>
-              Service-heavy organisations where
-              <br />
-              operational performance matters
+              Who we work with
             </h2>
           </div>
           <div className="who-grid-modern">
@@ -288,12 +250,11 @@ export default function Home() {
                 <span aria-hidden="true">🏢</span>
               </div>
               <div className="who-card-badge">Service Organisations</div>
-              <h3>Service-Heavy Organisations</h3>
+              <h3>Service-Heavy Businesses</h3>
               <p>
-                Organisations where value is delivered through people,
-                workflows, and responsiveness — and where backlog, manual
-                processes, and SLA pressure directly impact cost-to-serve and
-                customer experience.
+                Businesses where delivery depends on people, processes, and
+                responsiveness — and where manual effort and SLA pressure
+                directly eat into margin.
               </p>
               <ul className="who-points">
                 <li>High-volume service delivery teams</li>
@@ -306,11 +267,10 @@ export default function Home() {
                 <span aria-hidden="true">👔</span>
               </div>
               <div className="who-card-badge">Operations Leaders</div>
-              <h3>Operations Leaders with Real Accountability</h3>
+              <h3>Operations Leaders</h3>
               <p>
-                COOs, VP / Directors of Operations, and Heads of Service who own
-                performance metrics — SLAs, backlog, throughput, and operational
-                cost — and need improvements they can stand behind.
+                The people who own the numbers — SLAs, backlog, throughput,
+                cost — and need improvements they can actually defend upward.
               </p>
               <ul className="who-points">
                 <li>COOs &amp; VP of Operations</li>
@@ -323,11 +283,11 @@ export default function Home() {
                 <span aria-hidden="true">🏦</span>
               </div>
               <div className="who-card-badge">Insurance &amp; Regulated</div>
-              <h3>Insurance &amp; Regulated Service Environments</h3>
+              <h3>Insurance &amp; Regulated Environments</h3>
               <p>
-                Insurance carriers, brokers, and service organisations in
-                regulated, high-volume environments where administrative drag and
-                fragmented workflows quietly drive up cost-to-serve.
+                Carriers, brokers, and MGAs where fragmented workflows,
+                compliance overhead, and high query volumes quietly drive up
+                cost-to-serve.
               </p>
               <ul className="who-points">
                 <li>Insurance carriers &amp; brokers</li>
@@ -342,103 +302,39 @@ export default function Home() {
       <section id="results" aria-labelledby="res-heading">
         <div className="container">
           <div className="sr">
-            <p className="label label-blue">Measurable Results</p>
+            <p className="label label-blue">Client Results</p>
             <h2 id="res-heading">
-              Outcomes we track and commit to,
-              <br />
-              without destabilising operations
+              Real work. Real outcomes.
             </h2>
             <p className="results-sub">
-              Every engagement is scoped around metrics that matter - cost, capacity, and compliance.
+              We&apos;ve fully automated the refund process for a UK-based
+              vending operator — removing significant manual effort and
+              improving customer experience from day one.
             </p>
           </div>
           <div className="results-grid">
-            <article className="res-card res-card-1 sr d1">
-              <div className="res-ring-wrap" aria-hidden="true">
-                <div className="res-ring">
-                  <span>40%</span>
-                </div>
-                <div className="res-stat-block">
-                  <div className="res-big-num">↓40%</div>
-                  <div className="res-big-label">Operational Risk</div>
-                </div>
-              </div>
-              <h3>Low Risk Approach</h3>
-              <p>
-                We start with contained, clearly scoped improvements designed to
-                validate impact before broader rollout.
+            <article className="res-card res-card-testimonial sr d1">
+              <p className="res-eyebrow">Client Testimonial</p>
+              <p className="res-quote">
+                <span className="res-quote-icon res-quote-icon-start" aria-hidden="true">❝</span>
+                What stood out most is their ability to combine technical
+                delivery with a strong understanding of the commercial impact.
+                The solutions delivered have already helped improve efficiency
+                and enhance the customer experience, in particular, we have now
+                fully automated our refund process, which has removed a
+                significant amount of manual effort from the business. Off the
+                back of the initial results, we made the decision to expand the
+                engagement into a second project.
+                <span className="res-quote-icon res-quote-icon-end" aria-hidden="true">❞</span>
+              </p>
+              <p className="res-author">
+                <span className="res-author-name">Charlie Windebank</span>
+                <span className="res-author-sep" aria-hidden="true">
+                  |
+                </span>
+                <span className="res-author-role">UK Operations Leader</span>
               </p>
             </article>
-            <article className="res-card res-card-2 sr d2">
-              <div className="res-ring-wrap" aria-hidden="true">
-                <div className="res-ring">
-                  <span>65%</span>
-                </div>
-                <div className="res-stat-block">
-                  <div className="res-big-num">↓65%</div>
-                  <div className="res-big-label">Admin Overhead</div>
-                </div>
-              </div>
-              <h3>Administrative Load Reduction</h3>
-              <p>
-                By addressing workflow friction and repetitive tasks, we help
-                teams materially reduce administrative overhead and improve
-                throughput within existing structures.
-              </p>
-            </article>
-            <article className="res-card res-card-3 sr d3">
-              <div className="res-ring-wrap" aria-hidden="true">
-                <div className="res-ring">
-                  <span>78%</span>
-                </div>
-                <div className="res-stat-block">
-                  <div className="res-big-num">+78%</div>
-                  <div className="res-big-label">Capacity Released</div>
-                </div>
-              </div>
-              <h3>Capacity Released</h3>
-              <p>
-                We focus on reducing avoidable manual effort and rework, creating
-                meaningful capacity for higher-value operational work without
-                increasing headcount.
-              </p>
-            </article>
-          </div>
-          <div className="res-ticker-wrap sr" aria-label="Results highlights">
-            <div className="res-ticker-track">
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                ↓ 34% Average Cost-to-Serve
-              </span>
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                98.4% SLA Compliance Maintained
-              </span>
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                90-Day ROI Guarantee
-              </span>
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                Low-Disruption Implementation
-              </span>
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                ↓ 34% Average Cost-to-Serve
-              </span>
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                98.4% SLA Compliance Maintained
-              </span>
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                90-Day ROI Guarantee
-              </span>
-              <span className="res-ticker-item">
-                <span className="res-ticker-dot" />
-                Low-Disruption Implementation
-              </span>
-            </div>
           </div>
           <div className="results-cta sr">
             <a
@@ -464,54 +360,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="guarantee" aria-labelledby="guar-heading">
-        <div className="container">
-          <div className="guar-inner">
-            <div className="guar-badge sr" aria-hidden="true">
-              <span className="guar-badge-star">✦</span>
-            </div>
-            <blockquote className="sr d1" id="guar-heading">
-              “If you don’t achieve a clear return on your investment within{" "}
-              <span>90 days</span>… we work for free until you do.”
-            </blockquote>
-            <p className="sr d2">
-              Our engagement assurance means if early outcomes do not demonstrate
-              clear operational value, we continue working with you to refine and
-              stabilise the solution — at no additional cost — until it does.
-            </p>
-            <a
-              href={Site.calendlyUrl}
-              target="_blank"
-              rel="noopener"
-              className="btn btn-primary sr d3"
-            >
-              Start Risk-Free
-              <svg
-                width="15"
-                height="15"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </section>
-
       <section id="contact" aria-labelledby="contact-heading">
         <div className="container">
           <div className="contact-grid">
             <div className="contact-copy sr">
               <p className="label label-blue">Get in Touch</p>
-              <h2 id="contact-heading">Ready to reduce your cost-to-serve?</h2>
+              <h2 id="contact-heading">Let&apos;s start with one focused call.</h2>
               <p>
-                We work with a small number of operations leaders at a time to
-                ensure focused, measurable outcomes. If you’re managing backlog,
-                SLA pressure, or high manual effort — let’s talk.
+                A short conversation to understand your operation, identify
+                where value is likely, and decide whether it&apos;s worth moving
+                forward.
               </p>
               <div className="contact-links">
                 <a href={`mailto:${Site.email}`} className="contact-link">
@@ -547,11 +405,11 @@ export default function Home() {
               </div>
             </div>
             <div className="contact-card sr d2">
-              <h3>AI Maturity Assessment</h3>
+              <h3>Free AI Readiness Call</h3>
               <p>
-                A structured conversation about where your operation is today,
-                where the real cost-to-serve pressure lies, and whether AI is
-                the right next step.
+                A focused 30-minute session. No pitch, no obligation — just a
+                practical view of where AI can reduce manual load in your
+                operation.
               </p>
               <a
                 href={Site.calendlyUrl}
@@ -559,7 +417,7 @@ export default function Home() {
                 rel="noopener"
                 className="btn btn-primary"
               >
-                Book Your Assessment
+                Book Your Free Call
               </a>
             </div>
           </div>
