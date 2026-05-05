@@ -24,19 +24,16 @@ export default function Home() {
         <div className="hero-layout">
           <div className="hero-inner">
             <div className="hero-tag" aria-hidden="true">
-              Operational AI &middot; Built for Service Businesses
+              AI KNOWLEDGE SYSTEMS &middot; FOR INSURANCE BROKERAGES
             </div>
             <h1 id="hero-heading">
-              AI That Works Around Your
-              <br />
-              <em>Operation.</em>
-              <br />
-              Not Against It.
+              <span>Your producers know which carriers write which risks.</span>
+              <span className="hero-heading-emphasis">Your system doesn&apos;t.</span>
             </h1>
             <p className="hero-sub">
-              We find where your team is losing time to manual work, broken
-              handoffs, and knowledge gaps — then apply AI that delivers
-              measurable results without disrupting the operation you depend on.
+              We build AI knowledge systems for insurance brokerages. Carrier
+              appetite, underwriting rules, placement history — accessible to
+              your whole team in seconds, grounded in your own documentation.
             </p>
             <div className="hero-actions">
               <a
@@ -178,12 +175,13 @@ export default function Home() {
               <div className="sol-icon" aria-hidden="true">
                 <SolIconReview />
               </div>
-              <h3>Operational Review</h3>
+              <h3>AI Readiness Review</h3>
               <p>
-                We map where your operation is losing time, money, and quality.
-                Before we recommend anything.
+                Assess where knowledge gaps are costing time and money. Before
+                we build anything, we map what your team knows, what&apos;s
+                documented, and where the gaps are.
               </p>
-              <div className="sol-proof">No assumptions. No guesswork.</div>
+              <div className="sol-proof">No assumptions.</div>
             </div>
             <div className="sol-card sol-card-2 sr d2" data-step="2">
               <div className="sol-step-node" aria-hidden="true" />
@@ -193,10 +191,11 @@ export default function Home() {
               <div className="sol-icon" aria-hidden="true">
                 <SolIconAutomation />
               </div>
-              <h3>Workflow Automation</h3>
+              <h3>Knowledge Architecture</h3>
               <p>
-                We automate the highest-friction tasks first — the ones your
-                team feels every day.
+                Structure your documentation so the system can use it. Carrier
+                guides, underwriting rules, internal playbooks, placement
+                history — organised into a single source of truth.
               </p>
             </div>
             <div className="sol-card sol-card-3 sr d3" data-step="3">
@@ -207,10 +206,11 @@ export default function Home() {
               <div className="sol-icon" aria-hidden="true">
                 <SolIconOwnership />
               </div>
-              <h3>Workflow &amp; Ownership</h3>
+              <h3>Build &amp; Configure</h3>
               <p>
-                We close the gaps between teams — unclear ownership, broken
-                handoffs, repeated rework.
+                Build the Compass knowledge system on your documentation.
+                Configured to your workflows, tested against real producer
+                queries, and ready for your team to use.
               </p>
             </div>
             <div className="sol-card sol-card-4 sr d4" data-step="4">
@@ -221,17 +221,18 @@ export default function Home() {
               <div className="sol-icon" aria-hidden="true">
                 <SolIconImplementation />
               </div>
-              <h3>Delivery &amp; Stabilisation</h3>
+              <h3>Go Live &amp; Maintain</h3>
               <p>
-                We embed the changes properly so they stick — with your team,
-                in your systems, at a pace the operation can absorb.
+                Deploy with your team and keep it current. As carrier guidelines
+                change, the system updates. Your team gets alerts before
+                outdated information causes a problem.
               </p>
             </div>
             <SolutionsTimelineMotion />
           </div>
           <div className="sol-trust sr">
-            Every engagement starts with Step 1. We only go further when the
-            results justify it.
+            Every engagement starts with an AI Readiness Review. We only build
+            what the evidence supports.
           </div>
         </div>
       </section>
@@ -249,50 +250,54 @@ export default function Home() {
               <div className="who-card-icon-wrap">
                 <span aria-hidden="true">🏢</span>
               </div>
-              <div className="who-card-badge">Service Organisations</div>
-              <h3>Service-Heavy Businesses</h3>
+              <div className="who-card-badge">Insurance Brokerages</div>
+              <h3>Insurance Brokerages</h3>
               <p>
-                Businesses where delivery depends on people, processes, and
-                responsiveness — and where manual effort and SLA pressure
-                directly eat into margin.
+                Your producers carry years of knowledge about carrier appetite,
+                underwriting rules, and market placement. When that knowledge
+                lives in people&apos;s heads and nowhere else, it creates
+                inconsistency, slow onboarding, and E&amp;O exposure.
               </p>
               <ul className="who-points">
-                <li>High-volume service delivery teams</li>
-                <li>SLA-driven operational environments</li>
-                <li>Manual-process-heavy workflows</li>
+                <li>Commercial and personal lines brokerages</li>
+                <li>Owner-led and director-level businesses</li>
+                <li>Teams where senior knowledge is the bottleneck</li>
               </ul>
             </div>
             <div className="who-card-modern who-card-2 sr d2">
               <div className="who-card-icon-wrap">
                 <span aria-hidden="true">👔</span>
               </div>
-              <div className="who-card-badge">Operations Leaders</div>
-              <h3>Operations Leaders</h3>
+              <div className="who-card-badge">Mortgage Brokers</div>
+              <h3>Mortgage Brokers</h3>
               <p>
-                The people who own the numbers — SLAs, backlog, throughput,
-                cost — and need improvements they can actually defend upward.
+                Lender criteria, product rules, and compliance requirements change
+                constantly. A knowledge system keeps your whole team current — so
+                no one quotes from memory or relies on the one person who knows
+                the product inside out.
               </p>
               <ul className="who-points">
-                <li>COOs &amp; VP of Operations</li>
-                <li>Heads of Service &amp; Delivery</li>
-                <li>Owners of SLA &amp; cost metrics</li>
+                <li>Owner-led mortgage brokerages</li>
+                <li>Businesses scaling beyond the founding team</li>
+                <li>Firms with high compliance and accuracy requirements</li>
               </ul>
             </div>
             <div className="who-card-modern who-card-3 sr d3">
               <div className="who-card-icon-wrap">
                 <span aria-hidden="true">🏦</span>
               </div>
-              <div className="who-card-badge">Insurance &amp; Regulated</div>
-              <h3>Insurance &amp; Regulated Environments</h3>
+              <div className="who-card-badge">Accountancy Firms</div>
+              <h3>Accountancy Firms</h3>
               <p>
-                Carriers, brokers, and MGAs where fragmented workflows,
-                compliance overhead, and high query volumes quietly drive up
-                cost-to-serve.
+                Senior accountants carry client history, technical knowledge, and
+                process expertise that isn&apos;t documented anywhere. When they
+                leave, it goes with them. A knowledge system means the business
+                keeps running at the same standard.
               </p>
               <ul className="who-points">
-                <li>Insurance carriers &amp; brokers</li>
-                <li>Regulated, high-compliance environments</li>
-                <li>Administrative &amp; claims processing teams</li>
+                <li>Owner-led practices and mid-sized firms</li>
+                <li>Businesses with high staff turnover risk</li>
+                <li>Teams where onboarding time is a real cost</li>
               </ul>
             </div>
           </div>

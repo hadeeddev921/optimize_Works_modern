@@ -42,7 +42,7 @@ export function LogoPreloader() {
       <div className="logo-preloader__content">
         <img
           className="logo-preloader__logo"
-          src="/optimizeworks-logo.png"
+          src="/optimizeworks-logo-nobg.png"
           alt=""
           loading="eager"
           decoding="async"

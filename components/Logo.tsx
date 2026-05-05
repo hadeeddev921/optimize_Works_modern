@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export function Logo({
   variant = "nav",
 }: {
@@ -11,12 +9,13 @@ export function Logo({
 
   return (
     <span className={className}>
-      <Image
-        src="/optimizeworks-logo.png"
+      <img
+        src="/optimizeworks-logo-nobg.png"
         alt="Optimize Works"
         width={width}
         height={height}
-        priority={variant === "nav"}
+        loading={variant === "nav" ? "eager" : "lazy"}
+        decoding="async"
       />
     </span>
   );

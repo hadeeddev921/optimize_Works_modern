@@ -14,15 +14,10 @@ export default function SolutionsPage() {
       <SolutionsAutoScroll sectionId="solutions" />
       <div className="container">
         <div className="sr">
-          <p className="label label-blue">Our Solutions</p>
-          <h2 id="sol-heading">
-            Practical improvements for
-            <br />
-            service-heavy operations
-          </h2>
+          <h2 id="sol-heading">How we work</h2>
           <p className="sol-intro-copy">
-            Low-disruption solutions designed around how your teams actually
-            work — not how a textbook says they should.
+            A simple, staged approach — designed to prove value before we go any
+            further.
           </p>
         </div>
 
@@ -30,81 +25,72 @@ export default function SolutionsPage() {
           <div className="sol-card sol-card-1 sr d1" data-step="1">
             <div className="sol-step-node" aria-hidden="true" />
             <div className="sol-card-left-bar" aria-hidden="true" />
-            <div className="sol-card-meta">Diagnostic Foundation</div>
+            <div className="sol-card-meta">Step 1</div>
             <div className="sol-num">01</div>
             <div className="sol-icon" aria-hidden="true">
               <SolIconReview />
             </div>
-            <h3>Operational Review</h3>
+            <h3>AI Readiness Review</h3>
             <p>
-              A structured review of how work actually flows through your
-              operation, identifying bottlenecks, manual effort, and SLA risk
-              that drive cost-to-serve.
+              Assess where knowledge gaps are costing time and money. Before we
+              build anything, we map what your team knows, what&apos;s
+              documented, and where the gaps are.
             </p>
-            <div className="sol-proof">
-              Identifies high-impact opportunities before any rollout.
-            </div>
+            <div className="sol-proof">No assumptions.</div>
           </div>
 
           <div className="sol-card sol-card-2 sr d2" data-step="2">
             <div className="sol-step-node" aria-hidden="true" />
             <div className="sol-card-left-bar" aria-hidden="true" />
-            <div className="sol-card-meta">Execution Layer</div>
+            <div className="sol-card-meta">Step 2</div>
             <div className="sol-num">02</div>
             <div className="sol-icon" aria-hidden="true">
               <SolIconAutomation />
             </div>
-            <h3>Workflow Automation</h3>
+            <h3>Knowledge Architecture</h3>
             <p>
-              Targeted automation on priority workflows to cut manual effort
-              and reduce operational risk.
+              Structure your documentation so the system can use it. Carrier
+              guides, underwriting rules, internal playbooks, placement history
+              — organised into a single source of truth.
             </p>
-            <div className="sol-proof">
-              Applied where teams feel the most friction.
-            </div>
           </div>
 
           <div className="sol-card sol-card-3 sr d3" data-step="3">
             <div className="sol-step-node" aria-hidden="true" />
             <div className="sol-card-left-bar" aria-hidden="true" />
-            <div className="sol-card-meta">Governance Layer</div>
+            <div className="sol-card-meta">Step 3</div>
             <div className="sol-num">03</div>
             <div className="sol-icon" aria-hidden="true">
               <SolIconOwnership />
             </div>
-            <h3>Workflow &amp; Ownership Optimisation</h3>
+            <h3>Build &amp; Configure</h3>
             <p>
-              Clarify ownership, handoffs, and decision points across service
-              workflows to reduce friction, rework, and hidden cost-to-serve.
+              Build the Compass knowledge system on your documentation.
+              Configured to your workflows, tested against real producer queries,
+              and ready for your team to use.
             </p>
-            <div className="sol-proof">
-              Strengthens accountability without adding process overhead.
-            </div>
           </div>
 
           <div className="sol-card sol-card-4 sr d4" data-step="4">
             <div className="sol-step-node" aria-hidden="true" />
             <div className="sol-card-left-bar" aria-hidden="true" />
-            <div className="sol-card-meta">Delivery Assurance</div>
+            <div className="sol-card-meta">Step 4</div>
             <div className="sol-num">04</div>
             <div className="sol-icon" aria-hidden="true">
               <SolIconImplementation />
             </div>
-            <h3>Low-Disruption Implementation</h3>
+            <h3>Go Live &amp; Maintain</h3>
             <p>
-              Deliver measurable improvements quickly, focusing on adoption and
-              stability rather than large-scale transformation or
-              experimentation.
+              Deploy with your team and keep it current. As carrier guidelines
+              change, the system updates. Your team gets alerts before outdated
+              information causes a problem.
             </p>
-            <div className="sol-proof">
-              Built for SLA-sensitive teams that cannot afford disruption.
-            </div>
           </div>
           <SolutionsTimelineMotion />
         </div>
         <div className="sol-trust sr">
-          Structured around measurable outcomes, operational continuity, and
-          90-day value visibility.
+          Every engagement starts with an AI Readiness Review. We only build
+          what the evidence supports.
         </div>
 
         <div className="results-cta sr" style={{ marginTop: 44 }}>

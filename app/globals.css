@@ -99,7 +99,7 @@ h2{font-size:clamp(1.7rem,3vw,2.5rem);letter-spacing:-0.03em}
 h3{font-size:1rem;font-weight:600;letter-spacing:-0.01em}
 p{font-size:0.95rem;line-height:1.8}
 
-.container{max-width:1160px;margin:0 auto;padding:0 40px}
+.container{max-width:1420px;margin:0 auto;padding:0 40px}
 section{padding:88px 0}
 
 .label{font-size:0.7rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;margin-bottom:12px}
@@ -309,6 +309,17 @@ section{padding:88px 0}
 .hero-tag::before{content:'';width:6px;height:6px;background:var(--blue-bright);border-radius:50%}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.55)}}
 h1 em{font-style:normal;color:var(--blue-bright)}
+#hero-heading{
+  font-size:clamp(2rem,4.2vw,3.45rem);
+  line-height:1.14;
+  letter-spacing:-0.028em;
+  max-width:17.5ch;
+}
+.hero-heading-emphasis{
+  display:block;
+  margin-top:0.2em;
+  color:var(--blue-bright);
+}
 .hero-sub{font-size:1.05rem;color:rgba(180,210,250,0.8);max-width:550px;line-height:1.8;font-weight:300;margin:22px 0 40px}
 .hero-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 
@@ -1590,6 +1601,7 @@ footer{
 @media (max-width:640px){
   #hero{padding:88px 20px 56px}
   h1{font-size:clamp(2rem,10vw,2.7rem)}
+  #hero-heading{font-size:clamp(1.8rem,8.4vw,2.45rem);max-width:100%}
   .hero-sub{font-size:0.95rem;line-height:1.72;margin:18px 0 32px}
   .hero-actions .btn{
     width:100%;
